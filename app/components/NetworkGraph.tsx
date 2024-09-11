@@ -11,7 +11,7 @@ interface NetworkGraphProps {
 
 const NetworkGraph: React.FC<NetworkGraphProps> = ({ data }) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
-  const [filteredData, setFilteredData] = useState(data);
+  const [filteredData] = useState(data);
   const [selectedNode, setSelectedNode] = useState<Entity | null>(null);
 
   useEffect(() => {
