@@ -2,7 +2,7 @@
 import * as d3 from 'd3';
 import { useEffect, useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faMapMarkerAlt, faCube, faPlus, faMinus, faExpand } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faMinus, faExpand } from '@fortawesome/free-solid-svg-icons';
 import type { Entity } from '../types';
 
 interface NetworkGraphProps {

@@ -15,6 +15,6 @@ export interface Entity {
     name: string;
     description: string;
     position: Position;
-    details: { [key: string]: any };
+    details: { [key: string]: string };
     connections: Connection[];
 }
